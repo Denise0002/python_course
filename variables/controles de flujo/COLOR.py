@@ -1,6 +1,6 @@
 #vocales=["a","e","i","o","u"]
 #for vocal in range(0,5):
-    print(vocales[numero])
+    #print(vocales[numero])
 #for vocal in vocales:
  #   print(vocal)
 
