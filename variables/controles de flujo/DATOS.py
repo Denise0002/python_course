@@ -17,11 +17,18 @@
 #for dato in lista:
  #   print(dato)
 
-lista=[]
-condicion=1
-while condicion:
-    pedirDato=input('ingrese un dato: ')
-    if pedirDato == 'si':
-        condicion=0
-    lista.append(pedirDato)
-print(lista)
+#lista=[]
+#condicion=1
+#while condicion:
+    #pedirDato=input('ingrese un dato: ')
+   # if pedirDato == 'si':
+       # condicion=0
+    #lista.append(pedirDato)
+#print(lista)
+datos = []
+
+while len(datos) < 5:
+    dato = input("Ingresa un dato: ")
+    datos.append(dato)
+
+print("Los datos ingresados son: ", datos)
